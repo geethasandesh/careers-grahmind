@@ -224,7 +224,7 @@ const CareersPage = () => {
                                         type="email"
                                         value={email}
                                         onChange={handleEmailChange}
-                                        placeholder="Enter your email to join our talent waitlist"
+                                        placeholder="Enter your email to join our talent pool"
                                         disabled={status === 'success'}
                                         className="w-full bg-white/5 text-white px-6 sm:px-8 py-4 sm:py-5 outline-none placeholder:text-gray-300 text-base sm:text-lg font-light rounded-2xl focus:placeholder:text-gray-400 focus:bg-white/10 transition-all duration-300 border border-white/10"
                                         aria-label="Email address for career opportunities"
